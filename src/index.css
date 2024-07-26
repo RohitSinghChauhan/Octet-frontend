@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    @apply font-lato bg-[#FBFBFC]
+}
+
+@layer components {
+    .container {
+        @apply w-[100%] flex justify-center sm:mt-[1.4rem] md:mt-[1.4rem] lg:mt-[4rem] xl:mt-[5rem] 2xl:mt-[5rem];
+    }
+
+    .wrapper {
+        @apply w-[83vw] flex flex-col items-center gap-[0.6rem];
+    }
+}
+
+@layer utilities {
+    .border-b {
+        @apply border border-black;
+    }
+
+    .headline {
+        @apply font-bold text-[#364154];
+    }
+}
