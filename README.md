@@ -21,9 +21,13 @@ To get started with this project locally, follow these steps:
 
 ### Installation
 
-1. **Clone the repository and Installation:**
+**Clone the repository and Installation:**
 
    ```bash
    git clone https://github.com/RohitSinghChauhan/Octet-frontend.git
    npm install
    npm run dev
+```
+
+**View live**
+Deployed link- https://octet-task-rohitsingh.netlify.app/
